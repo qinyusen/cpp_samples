@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8.3)
+project(test_params)
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Werror=return-type -Wall -O3")
+include_directories(.)
+add_executable(sample main.cpp params.cpp)
