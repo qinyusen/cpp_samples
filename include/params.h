@@ -10,6 +10,10 @@ class params{
     ~params();
     float p1_0 = 0.3f;
     const float *p1;
+    std::string *s;
+    static const std::string s1_1;
+    static const std::string s1_2;
+
     int init(int type);
 };
 
